@@ -1,5 +1,4 @@
 :root {
-    display: inline-block;
     width: 600px;
     box-sizing: border-box;
     margin:auto;
@@ -7,7 +6,48 @@
 }
 #rubrik {
     background-color: rgba(190, 229, 176, 0.5);
+    color: rgb(51, 70, 45);
     border-radius: 5px;
     text-align: center;
     padding: 10px;
+}
+nav {
+    text-align: center;
+}
+a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted;
+
+}
+
+img {
+display: block;
+border-radius: 50%;
+border: 1px solid black;
+height: 300px;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+object-fit: cover;
+margin-bottom: 50 px;
+
+}
+
+#kroppen {
+    display: block;
+    border-top: 1.5px rgb(159, 159, 159) solid;
+    border-bottom: 1.5px rgb(159, 159, 159) solid;
+}
+h2 {
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
+    margin: 30px;
 }
